@@ -1,0 +1,67 @@
+
+.bg-secondary{
+    background-image: url(./assets/images/backgroound/carmoflag\ purple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: #393053!important;
+}
+.barElement{
+    width: 250px; 
+    height:5px; 
+    background-color: white;
+}
+
+.btnlight{
+   background-color: rgba(10, 24, 85, 0.904);
+   color: #499fb3;
+}
+
+.navbar-toggler:focus{
+   outline: none!important;
+   box-shadow: none;
+}
+.form-control:focus{
+    outline: none!important;
+    box-shadow: none;
+    border: none!important;
+}
+.btn:focus{
+    outline: none!important;
+    box-shadow: none;
+    border: none!important;
+}
+
+.bg{
+    /* background-image: url(./assets/images/backgroound/davisuko-5E5N49RWtbA-unsplash.jpg); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* min-height: 105vh; */
+    background-size: cover;
+}
+
+.bg-navy{
+    background-color: rgba(10, 24, 85, 0.904);
+    color: white;
+}
+.navColor {
+    background-color: #4e96f596!important;
+}
+
+
+.inputWidth{
+    width: 50%!important;
+}
+
+@media (max-width: 991px) {
+    .inputWidth{
+      width: 100% !important;
+    }
+    .barElement{
+        width: 250px; 
+        height:5px; 
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
