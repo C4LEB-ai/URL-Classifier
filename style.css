@@ -1,67 +1,88 @@
-
-.bg-secondary{
+.bg-secondary {
     background-image: url(./assets/images/backgroound/carmoflag\ purple.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
-    background-color: #393053!important;
+    background-color: #393053 !important;
 }
-.barElement{
-    width: 250px; 
-    height:5px; 
+
+.barElement {
+    width: 250px;
+    height: 5px;
     background-color: white;
 }
 
-.btnlight{
-   background-color: rgba(10, 24, 85, 0.904);
-   color: #499fb3;
-}
-
-.navbar-toggler:focus{
-   outline: none!important;
-   box-shadow: none;
-}
-.form-control:focus{
-    outline: none!important;
-    box-shadow: none;
-    border: none!important;
-}
-.btn:focus{
-    outline: none!important;
-    box-shadow: none;
-    border: none!important;
-}
-
-.bg{
-    /* background-image: url(./assets/images/backgroound/davisuko-5E5N49RWtbA-unsplash.jpg); */
-    background-repeat: no-repeat;
-    background-position: center center;
-    /* min-height: 105vh; */
-    background-size: cover;
-}
-
-.bg-navy{
+.btnlight {
     background-color: rgba(10, 24, 85, 0.904);
-    color: white;
+    color: #499fb3;
 }
+
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none;
+    border: none !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none;
+    border: none !important;
+}
+
+.bg {
+    /* background-image: url(./assets/images/)!important; */
+    /* background-repeat: no-repeat;
+    background-position: center center; */
+    /* min-height: 105vh; */
+    /* background-size: cover; */
+    background-color: #eef6fcaf;
+    /* #a9d6f870 */
+    /* #daf0ff */
+    /* #cfe2f37c; */
+}
+
+.bg-action{
+    background-color: rgb(183, 226, 252);
+}
+
+.bg-navy {
+    background-color: rgba(10, 24, 85, 0.904)!important;
+    color: #eef6fcaf;
+}
+
 .navColor {
-    background-color: #4e96f596!important;
+    background-color: #4e96f596 !important;
+}
+.navbar-toggler{
+    border-color: white!important;
+}
+
+.navbar-light
+.navbar-toggler-icon {
+    border-color: white !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280285, 300, 300, 1.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 
-.inputWidth{
-    width: 50%!important;
+.inputWidth {
+    width: 50% !important;
 }
 
 @media (max-width: 991px) {
-    .inputWidth{
-      width: 100% !important;
+    .inputWidth {
+        width: 100% !important;
     }
-    .barElement{
-        width: 250px; 
-        height:5px; 
+
+    .barElement {
+        width: 250px;
+        height: 5px;
         background-color: white;
         margin-left: auto;
         margin-right: auto;
     }
-  }
+}
